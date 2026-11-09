@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# GNS3 runtime and lock files
+*_lock
+*_log.txt
+*_stdout.txt
+*.ghost
+
+# Dynamips temporary execution folders (keeping configs)
+project-files/dynamips/**/c3745_*
+
