@@ -228,3 +228,24 @@ __marimo__/
 # Dynamips temporary execution folders (keeping configs)
 project-files/dynamips/**/c3745_*
 
+
+# Block all virtual hard disk images (The heavy files)
+**/*.qcow2
+**/*.img
+**/*.vmdk
+**/hda-cloned
+
+# Block runtime temporary files & logs
+*_lock
+*_log.txt
+*_stdout.txt
+*.ghost
+*.log
+**/dynamips/ilt_*
+
+# Block hardware emulator NVRAM/RAM dynamic allocations
+**/project-files/dynamips/**/*_rom
+**/project-files/dynamips/**/*_rommon_vars
+**/project-files/dynamips/**/*_slot*
+**/project-files/dynamips/**/*_ssa
+
