@@ -75,9 +75,9 @@
                 "drawing_id": "bd82449a-103c-4c9d-a7d2-9d30d57e0d55",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"321\" height=\"412\"><rect width=\"321\" height=\"412\" fill=\"#f4040\" fill-opacity=\"0.010131990537047386\" stroke-dasharray=\"25, 25\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 394,
-                "y": -143,
+                "svg": "<svg width=\"194\" height=\"429\"><rect width=\"194\" height=\"429\" fill=\"#f4040\" fill-opacity=\"0.010131990537047386\" stroke-dasharray=\"25, 25\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -321,
+                "y": -169,
                 "z": 0
             }
         ],
